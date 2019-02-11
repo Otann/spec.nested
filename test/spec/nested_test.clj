@@ -30,7 +30,7 @@
 
     (is (true? (s/valid? :spec.nested-test.not-nested/int 1)))
 
-    (is (true? (s/valid? :spec.nested-test.not-nested/int 1)))))
+    (is (true? (s/valid? :spec.nested-test.not-nested/str "value")))))
 
 
 (def-nested-keys ::one-level
