@@ -1,4 +1,4 @@
-(defproject spec.nested "0.1.0-SNAPSHOT"
+(defproject spec.nested "0.1.0"
   :description "Nested definitions for your clojure.specs"
 
   :url "https://github.com/otann/spec.nested"
