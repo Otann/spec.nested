@@ -1,7 +1,7 @@
 # Nested definitions for `clojure.spec`
 
-[![Circle CI](https://circleci.com/gh/Otann/specs.nested.svg?style=shield&no-cache=0)](https://circleci.com/gh/Otann/specs.nested)
-[![codecov](https://codecov.io/gh/Otann/specs.nested/branch/master/graph/badge.svg)](https://codecov.io/gh/Otann/specs.nested)
+[![Circle CI](https://circleci.com/gh/Otann/spec.nested.svg?style=shield&no-cache=0)](https://circleci.com/gh/Otann/spec.nested)
+[![codecov](https://codecov.io/gh/Otann/spec.nested/branch/master/graph/badge.svg)](https://codecov.io/gh/Otann/spec.nested)
 
 
 It is often needed to define a spec for a very nested map,
