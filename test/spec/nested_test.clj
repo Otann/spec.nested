@@ -28,9 +28,9 @@
 
   (testing "subspecs are generated"
 
-    (is (true? (s/valid? :spec.nested-test.not-nested/bar 1)))
+    (is (true? (s/valid? :spec.nested-test.not-nested/int 1)))
 
-    (is (true? (s/valid? :spec.nested-test.not-nested/bar 1)))))
+    (is (true? (s/valid? :spec.nested-test.not-nested/int 1)))))
 
 
 (def-nested-keys ::one-level
