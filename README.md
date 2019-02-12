@@ -1,6 +1,7 @@
 # Nested definitions for `clojure.spec`
 
 [![Circle CI](https://circleci.com/gh/Otann/spec.nested.svg?style=shield&no-cache=0)](https://circleci.com/gh/Otann/spec.nested)
+[![Clojars](https://img.shields.io/clojars/v/spec.nested.svg?no-cache=1)](https://clojars.org/wrench)
 [![codecov](https://codecov.io/gh/Otann/spec.nested/branch/master/graph/badge.svg)](https://codecov.io/gh/Otann/spec.nested)
 
 
@@ -8,7 +9,15 @@ It is often needed to define a spec for a very nested map,
 but `clojure.spec` forces you to define a separate spec for each key.
 
 While still complying with it's philosophy we can use more readable definition
-with some guidelines applied to naming our specs:
+with some guidelines applied to naming our specs.
+
+## Installation
+
+Add `[specs.nested "0.1.0"]` to the dependency section in your project.clj file.
+
+specs.nested requires 1.9 version of Clojure.
+
+## Usage
 
 ```
 (ns a.b.c
